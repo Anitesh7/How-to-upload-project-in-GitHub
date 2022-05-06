@@ -1,0 +1,31 @@
+1. Create a github repository.
+2. Add readme.md (can be created later)
+3. Now got to the folder which is to be uploaded.
+4. Right click -- "Open Git bash here"
+5. git terminal open
+
+<--------Commands for uploading files----------->
+
+1. git init 
+2. git add . 
+3. git commit -m "first commit" 
+4. git remote add origin <git repository ssh link>
+5. git push origin master
+
+
+<--------extra commands----------->
+- git status (status checking)
+- git push origin master --force (if any error found repush it by this command)
+-- git remote set-url origin <ssh paste> (if fatal:remote origin already exist)
+
+
+
+<--------Commands for uploading files  in existing repository----------->
+
+
+1- git init
+2- git add .
+3- git commit -m "first commit"
+4- git remote add origin "remote repository URL"
+5- git push origin master
+
